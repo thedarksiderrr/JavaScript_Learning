@@ -8,4 +8,5 @@ accountCity = "Junagadh"
 
 console.log(accountId);
 
-console.table([accountId, accountEmail, accountPassword, accountCity])
+console.table([accountId, accountEmail, accountPassword, accountCity]) 
+//table formart for print more than 1 variable

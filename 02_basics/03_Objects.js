@@ -27,3 +27,12 @@ obj.email = "pratham@gmail.com" // --changes will not apply just because object 
 console.log(obj);
 
 // in javascript you can treat functions as a variable.
+obj.greeting = function(){
+    console.log("Hello JS From Function");
+}
+obj.greetingTwo = function(){
+    console.log(`Hello JS From Function, ${this.name}`);
+}
+
+console.log(obj.greeting());
+console.log(obj.greetingTwo());

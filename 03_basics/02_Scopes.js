@@ -47,8 +47,15 @@ if (true) {
 }
 // console.log(username); // not acceptable
 
+// **************** Interesting ****************
+// difference between declaring function nd access directly or declaring function and holding it into a variable
+console.log(addOne(5)); // will work properly
+function addOne(num) {
+    return num + 1
+}
 
-// timestamp : 5:26:15
 
-
-
+console.log(addTwo(6)); // throws an error: cannot access before initialization
+const addTwo = function(num) {
+    return num + 5
+}

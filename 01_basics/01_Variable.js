@@ -3,7 +3,7 @@ let accountEmail = "pratham@gmail.com"
 var accountPassword = "123"
 accountCity = "Junagadh"
 
-// accountId = 6789 //- changes are not allowed
+// accountId = 6789 //- changes are not allowed in const
 
 
 console.log(accountId);
